@@ -9,9 +9,26 @@
 `Content-Type: application/graphql`
 * Put type raw your query for request body
 Example
+Query example
 ```
-{
-    hello
+query {
+  getMessage(id: "3f4e6510ee46276da533") {
+    content
+  }
+}
+
+```
+
+Mutation example
+```
+mutation {
+  createMessage(input: {
+    author: "andy",
+    content: "hope is a good thing 2",
+  }) {
+    id,
+    content
+  }
 }
 ```
 
