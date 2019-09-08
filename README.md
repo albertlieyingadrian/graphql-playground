@@ -46,3 +46,4 @@ TODO:
 1. Add subscription example
 2. Clean up all code structures
 3. Add tests
+4. Add local setup of prisma using docker-compose
