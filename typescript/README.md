@@ -1,3 +1,11 @@
 # graphql-playground-typescript
 
-## TO DO
+## Command
+```
+prisma deploy
+```
+
+```
+prisma generate
+nexus-prisma-generate --client ./src/generated/prisma-client --output ./src/generated/nexus-prisma
+```
