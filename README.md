@@ -39,3 +39,8 @@ curl -X POST \
 -d '{"query": "{ hello }"}' \
 http://localhost:4000/graphql
 ```
+
+TODO:
+1. Add appolo
+2. Add subscription example
+3. Add ORM (such as prisma)
