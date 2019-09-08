@@ -1,7 +1,9 @@
 # graphql-playground
 
-## TO DO
-- add prisma and apollo
+## Deployment
+```
+sls deploy
+```
 
 ## How to test graphql server with postman
 1. Using postman
